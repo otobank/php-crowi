@@ -2,10 +2,10 @@
     "name": "otobank/php-crowi",
     "description": "[Crowi](http://crowi.wiki)",
     "autoload": {
-        "php": ">=5.5",
         "psr-4": { "Crowi\\": "" }
     },
     "require": {
+        "php": ">=5.5",
         "doctrine/mongodb-odm": "^1.0"
     },
     "authors": [
