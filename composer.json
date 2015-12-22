@@ -16,5 +16,8 @@
     ],
     "require-dev": {
         "phpunit/phpunit": "^5.1"
+    },
+    "suggest": {
+        "erusev/parsedown": "Better Markdown Parser in PHP"
     }
 }

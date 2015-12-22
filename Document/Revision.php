@@ -40,7 +40,7 @@ class Revision
     /**
      * @var User
      *
-     * @ODM\ReferenceOne(targetDocument="User")
+     * @ODM\ReferenceOne(targetDocument="User", simple=true)
      */
     private $author;
 
