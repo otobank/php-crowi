@@ -88,7 +88,7 @@ class User
     private $password;
 
     /**
-     * @var integer
+     * @var int
      *
      * @ODM\Int
      */
@@ -102,7 +102,7 @@ class User
     private $createdAt;
 
     /**
-     * @var boolean
+     * @var bool
      *
      * @ODM\Boolean
      */
@@ -181,7 +181,7 @@ class User
     }
 
     /**
-     * @return integer
+     * @return int
      */
     public function getStatus()
     {
@@ -197,7 +197,7 @@ class User
     }
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function getAdmin()
     {

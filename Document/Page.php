@@ -50,7 +50,7 @@ class Page
     private $redirectTo;
 
     /**
-     * @var integer
+     * @var int
      *
      * @ODM\Int
      */
@@ -131,7 +131,7 @@ class Page
     }
 
     /**
-     * @return integer
+     * @return int
      */
     public function getGrant()
     {
@@ -179,7 +179,7 @@ class Page
     }
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function isPublic()
     {
@@ -188,7 +188,8 @@ class Page
 
     /**
      * @param User $user
-     * @return boolean
+     *
+     * @return bool
      */
     public function isCreator(User $user)
     {
@@ -197,7 +198,8 @@ class Page
 
     /**
      * @param User $user
-     * @return boolean
+     *
+     * @return bool
      */
     public function isGrantedFor(User $user)
     {
